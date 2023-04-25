@@ -92,7 +92,7 @@ app.layout = html.Div(children=[
                                         # Enter your code below. Make sure you have correct formatting.
                                           dcc.Dropdown(id='input-type', 
                                             options=[
-                                                 {'label': 'Yearly Performance Report', 'value': 'OPT1'},
+                                                 {'label': 'Yearly Airline Performance Report', 'value': 'OPT1'},
                                                  {'label': 'Yearly Airline Delay Report', 'value': 'OPT2'}
                                                  ],
                                             placeholder='Select a report type',
